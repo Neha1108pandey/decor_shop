@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <!--link rel="stylesheet" href="about.css"-->
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 55px;
+    padding-right:55px ;
+    padding-bottom: 30px;
+   /* padding-top: 30px;*/
+  }
+  
+  img {
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+
+    
+  }
+
+  .card {
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+    margin-left:50px ;
+    margin-right: 50px;
+    /*margin-top: 50px;*/
+    margin-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: .2rem solid #46c9c9;
+    padding-bottom: 50;
+  }
+  
+  .about-section {
+   
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(102,68,82);
+    color: white;
+    border: .2rem solid #46c9c9;
+  }
+  
+  .container {
+    padding-left: 7px;
+    padding-right: 8px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:rgb(102,68,82);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+      border: .2rem solid #46c9c9;
+    }
+  }
+
+  h2{
+    text-align: center;
+  }
+
+
+
+
+/**/
+.about-us-content{
+  flex:0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20rem;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+.about-us-image{
+  position: relative;
+  flex: 1 1;
+  top: 15rem;
+}
+.image{
+    width: 32rem;
+    height: 23rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    box-shadow: 0 3rem 6rem rgb(102.68.82);
+    border: .2rem solid #46c9c9;
+    border-radius: .4rem;
+}
+.pic-3{
+  transform: translate(-5%,-80%);
+
+}
+
+.pic-2{
+  transform: translate(-70%,-70%);
+
+}
+.pic-4{
+transform: translate(-30%,-10%);
+}
+</style>
+ 
+</head>
+<body>
+   
+<div class="about-section">
+    
+    <h2>About Us Page</h2>
+    <p> We help to get the best products and services.</p>
+  </div>
+  
+  <h2 style="text-align:center;color: brown;">Glimpse of Owner</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="https://media.gettyimages.com/id/1180926773/photo/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-arms.jpg?s=612x612&w=gi&k=20&c=BlCz_Y26FpXviP-1E7P9uISFsbO-W9ducNo0gJ8r9jM=" alt="Bhavna" style="width:100%">
+        <div class="container">
+          <h2>Riya Jiya</h2>
+          <p class="title">Owner and ceo</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>riya@example.com</p>
+          <p><button class="button"><a href="#">Contact</a></button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="https://media.gettyimages.com/id/1261229865/photo/smiling-businesswoman-at-desk-in-office.jpg?s=612x612&w=gi&k=20&c=MBwjy7I1rtWgXNohuRK93JDA-a8RGepZNGp5NSeSqto=" alt="Arvind" style="width:100%">
+        <div class="container">
+          <h2>  Priya Dhawan</h2>
+          <p class="title">Developer  and Partner</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>Priya@example.com</p>
+          <p><button class="button"><a href="# ">Contact</a></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+<div class="about-us-image"> 
+
+    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" class="image pic-2">
+    <img src="https://cdn.pixabay.com/photo/2018/04/07/13/11/medicine-3298451_960_720.jpg" alt="" class="image pic-3">
+    <img src="https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_960_720.jpg" alt="" class="image pic-4">
+</div>
+   
+</body>
+</html>
